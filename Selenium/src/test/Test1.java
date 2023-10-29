@@ -8,11 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Test1 {
 
 	public static void main(String[] args) {
-		 WebDriver  driver ;
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--remote-allow-origins=*");
-			driver = new ChromeDriver(options);
+		
 			driver.get("https://www.google.com/");
 			/*
 			 * implicit waits:

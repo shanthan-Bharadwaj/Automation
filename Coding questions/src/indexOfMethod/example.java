@@ -15,7 +15,7 @@ public class example {
 		
 		int index4 = s1.indexOf("o");
 		System.out.println(index4);
-		
+		// -1 will be returned if there is nothing to display from the start value
 		int index5 = s1.indexOf("is",8);
 		System.out.println(index5);
 

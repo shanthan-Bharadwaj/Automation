@@ -12,7 +12,7 @@ public class DisplayPositionOfcharOfString {
 		String s1 = "Shanthan";
 		int s2 = s1.length();
 		char ch = s1.charAt(s2-1);
-		System.out.println(ch);
+		System.out.println("the last char of the string is "+ ch);
 		
 		for(int i=0; i<s2;i++) {
 			

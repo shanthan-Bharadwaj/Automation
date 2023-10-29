@@ -1,6 +1,6 @@
 package indexOfMethod;
 
-public class CharacterRepeatingCount {
+public class CharacterRepeatingCountUsingIndexof {
 
 	public static void main(String[] args) {
 		String s1 = "Welcome to javapoint ahshsyehhhhhhh";
@@ -13,9 +13,7 @@ public class CharacterRepeatingCount {
 			count = count+1;
 			startfrom = index+1;
 		}
-		else {
-			break;
-		}
+		
 		
 	}
 	System.out.println("The String is " + s1);

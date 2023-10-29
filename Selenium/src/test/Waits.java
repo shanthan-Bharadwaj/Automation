@@ -13,8 +13,10 @@ public class Waits {
 
 	public static void main(String[] args) {
 		 WebDriver  driver ;
-		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		 projectpath = System.getProperty("user.dir");
+		 System.setProperty("webdriver.chrome.driver", projectpath +
+		 "/src/test/resources/drivers/chromedriver.exe"); 
+		 driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		

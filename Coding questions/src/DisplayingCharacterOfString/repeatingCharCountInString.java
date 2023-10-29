@@ -1,6 +1,6 @@
 package DisplayingCharacterOfString;
 
-public class NoOfCharsRepeatingInString {
+public class repeatingCharCountInString {
 
 	public static void main(String[] args) {
 		String s1 = "11225819272635w41414111uu363848281111193846366";
